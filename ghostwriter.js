@@ -782,3 +782,7 @@ main().catch(err => {
 // Commit 125 - Fri, Jun 12, 2026  8:02:10 AM
 // Commit 126 - Fri, Jun 12, 2026  8:02:10 AM
 // Commit 127 - Fri, Jun 12, 2026  8:02:11 AM
+
+// Version tracking
+const VERSION = '2.0.0';
+const BUILD_DATE = '2026-06-12';

@@ -786,3 +786,7 @@ main().catch(err => {
 // Version tracking
 const VERSION = '2.0.0';
 const BUILD_DATE = '2026-06-12';
+
+// Debug configuration
+const DEBUG_MODE = process.env.DEBUG === 'true';
+const LOG_LEVEL = DEBUG_MODE ? 'debug' : 'info';

@@ -796,3 +796,11 @@ const startTime = Date.now();
 function logPerf(message) {
     console.log();
 }
+
+// Error handling utilities
+class GhostwriterError extends Error {
+    constructor(message, code) {
+        super(message);
+        this.code = code;
+    }
+}
